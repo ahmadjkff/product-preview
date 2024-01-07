@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.content {
+    position: relative;
+    width: 500px;
+    height: 375px;
+    text-align: center;
+    margin: 50px auto; 
+    background-color: white;
+    margin-left: 500px;
+}
+
+.product-img {
+    width: 250px;
+    position: absolute;
+    display: inline-block;
+    margin: auto auto; 
+    left: 0;
+}
+
+.Product-name{
+    position: absolute;
+    left: 275px;
+    font-family: Fraunces;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.5;
+}
+
+.product-full-name{
+    position: absolute;
+    text-align: left;
+    margin-left: 260px;
+    margin-right: 40px;
+    left: 10px;
+    font-family: Fraunces;
+    top: 23px;
+}
+
+
+.product-disc{
+    position: absolute;
+    left: 270px;
+    top: 155px;
+    margin-right: 50px;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+    text-align: left;
+    line-height: 1.4;
+}
+
+.current-price{
+    position: absolute;
+    left: 280px;
+    bottom: 50px;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+}
+
+.was-price{
+    position: absolute;
+    display: inline-block;
+    left: 395px;
+    bottom: 73px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: x-small;
+}
+
+button{
+    /* display: block; */
+    position: absolute;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 10px 70px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    right: 5%;
+    bottom: -40px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+button::before{
+    position: absolute;
+    content: url(images/icon-cart.svg);
+    left: 47px;
+}
