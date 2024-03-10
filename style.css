@@ -1,89 +1,92 @@
-
 /* Containers */
 body {
-    background-color: hsl(30, 38%, 92%);
-    margin: 50% 35%;
+  background-color: hsl(30, 38%, 92%);
 }
 
 .content {
-    position: relative;
-    width: 490px;
-    height: 400px;
-    background-color: white;
-    display: flex;
+  position: relative;
+  width: 490px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  margin: 10rem auto;
 }
 
 /* groups */
-.product-name, .product-full-name, .product-disc, .current-price{
-    margin-left: 30px;
+.product-name,
+.product-full-name,
+.product-disc,
+.current-price {
+  margin-left: 30px;
 }
 
-.was-price, .product-disc{
-    color: hsl(228, 12%, 48%);
+.was-price,
+.product-disc {
+  color: hsl(228, 12%, 48%);
 }
 
 /* other */
 .product-img {
-    width: 250px;
+  width: 250px;
 }
 
-.product-name{
-    font-family: Fraunces;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    opacity: 0.5;
+.product-name {
+  font-family: Fraunces;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.5;
 }
 
-.product-full-name{
-    text-align: left;
-    font-family: Fraunces;
-    margin-right: 5px;
-    margin-top: -15px;
+.product-full-name {
+  text-align: left;
+  font-family: Fraunces;
+  margin-right: 5px;
+  margin-top: -15px;
 }
 
-.product-disc{
-    font-size: small;
-    text-align: left;
-    line-height: 1.4;
-    margin-right: 30px;
+.product-disc {
+  font-size: small;
+  text-align: left;
+  line-height: 1.4;
+  margin-right: 30px;
 }
 
-.price{
-    display: flex;
-    margin-top: -15px;
+.price {
+  display: flex;
+  margin-top: -15px;
 }
 
-.current-price{
-    font-weight: 700;
-    font-family: Montserrat;
-    font-size: x-large;
-    color: hsl(158, 36%, 37%);
+.current-price {
+  font-weight: 700;
+  font-family: Montserrat;
+  font-size: x-large;
+  color: hsl(158, 36%, 37%);
 }
 
-.was-price{
-    display: inline-block;
-    text-decoration: line-through;
-    font-size: small;
-    margin-left: 20px;
-    margin-top: 32px;
+.was-price {
+  display: inline-block;
+  text-decoration: line-through;
+  font-size: small;
+  margin-left: 20px;
+  margin-top: 32px;
 }
 
-button{
-    background-color: hsl(158, 36%, 37%);
-    color: white;
-    padding: 10px 70px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 20px;
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  padding: 10px 70px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
-button:hover{
-    background-color: hsl(158, 35%, 20%);
+button:hover {
+  background-color: hsl(158, 35%, 20%);
 }
 
-button::before{
-    position: absolute;
-    content: url(images/icon-cart.svg);
-    left: 65px;
+button::before {
+  position: absolute;
+  content: url(images/icon-cart.svg);
+  left: 65px;
 }
