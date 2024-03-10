@@ -79,6 +79,7 @@ button {
   border: none;
   cursor: pointer;
   margin-bottom: 20px;
+  margin-left: 1rem;
 }
 
 button:hover {
@@ -86,7 +87,7 @@ button:hover {
 }
 
 button::before {
-  position: absolute;
   content: url(images/icon-cart.svg);
-  left: 65px;
+  position: absolute;
+  left: 19rem;
 }
